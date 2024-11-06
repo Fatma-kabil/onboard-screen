@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:taskone/onboard/animated_onboard_screen.dart';
 import 'package:taskone/onboard/onboard_screen.dart';
 
 
@@ -13,7 +14,7 @@ class MusicApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(body:OnboardScreen()));
+      home: Scaffold(body:AnimatedOnboardScreen()));
   }
 }
 
